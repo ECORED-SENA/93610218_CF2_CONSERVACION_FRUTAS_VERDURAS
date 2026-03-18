@@ -14,7 +14,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/img57.jpg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 La conservación en frío consiste en #[b someter el alimento a bajas temperaturas] con el fin de #[b reducir el crecimiento de microorganismos], disminuir la #[b actividad enzimática] y mantener las c#[b aracterísticas físicas y químicas] del alimento. Este método es considerado uno de los #[b más seguros] para la conservación de alimentos frescos.
+        p.mb-0 La conservación en frío consiste en #[b someter el alimento a bajas temperaturas] con el fin de #[b reducir el crecimiento de microorganismos], disminuir la #[b actividad enzimática] y mantener las #[b características físicas y químicas] del alimento. Este método es considerado uno de los #[b más seguros] para la conservación de alimentos frescos.
 
     <!------------------------------------------ SUBTEMA 1 ------------------------------------------>
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -43,11 +43,11 @@
 
     .row.align-items-center.m-0.mb-5
       .col-xl
-        .row.align-items-center.style___box_4.fit___box_4(data-aos="zoom-in")
+        .row.align-items-center.justify-content-center.style___box_4.fit___box_4(data-aos="zoom-in")
           .col-auto
-            figure.d-none.d-xl-block(data-aos="fade-right")
+            figure(data-aos="fade-right")
               img(src="@/assets/curso/temas/img40.svg" style="max-width: 220px").m-auto
-          .col
+          .col.espacio___movil_3
             h4.mb-4 Pódcast
             TarjetaAudio.color-acento-contenido.mb-3(
               texto="Aplicación de la refrigeración"
@@ -67,24 +67,25 @@
 
     p.mb-5 La congelación de verduras requiere un tratamiento específico según la especie, debido a que su comportamiento varía de acuerdo con su composición físico-química. Para obtener resultados adecuados, se deben considerar los siguientes aspectos:
 
-    .row.align-items-center.m-0.style___box_7(data-aos="zoom-in")
-      .col-xl-auto
-        figure.d-none.d-xl-block
-          img(src="@/assets/curso/temas/img59.jpg" style="max-width: 450px").m-auto
-      .col-xl
-        ul.fa-ul.estilo___ul.mb-0
-          li.mb-1
-            span.fa-li
-              i.fas.fa-arrow-alt-circle-right
-            | #[b Temperatura previa]: las frutas y verduras deben refrigerarse previamente entre 5 y 7 °C.
-          li.mb-1
-            span.fa-li
-              i.fas.fa-arrow-alt-circle-right
-            | #[b Empaques]: deben ser transparentes, de cierre hermético y elaborados en plástico resistente y flexible.
-          li.mb-0
-            span.fa-li
-              i.fas.fa-arrow-alt-circle-right
-            | #[b Preparación previa]: antes de la congelación, resulta fundamental aplicar el proceso de escaldado.
+    .style___box_7.mb-0(data-aos="zoom-in")
+      .row.align-items-center
+        .col-xl-auto
+          figure
+            img(src='@/assets/curso/temas/img59.jpg', alt='').m-auto
+        .col-xl
+          ul.fa-ul.estilo___ul.mb-0
+            li.mb-1
+              span.fa-li
+                i.fas.fa-arrow-alt-circle-right
+              | #[b Temperatura previa]: las frutas y verduras deben refrigerarse previamente entre 5 y 7 °C.
+            li.mb-1
+              span.fa-li
+                i.fas.fa-arrow-alt-circle-right
+              | #[b Empaques]: deben ser transparentes, de cierre hermético y elaborados en plástico resistente y flexible.
+            li.mb-0
+              span.fa-li
+                i.fas.fa-arrow-alt-circle-right
+              | #[b Preparación previa]: antes de la congelación, resulta fundamental aplicar el proceso de escaldado.
 
     <!------------------------------------------ SUBTEMA 2 ------------------------------------------>
     Separador
@@ -224,7 +225,7 @@
                       i.fas.fa-arrow-alt-circle-right
                     | #[b Empaque]: empacar la fruta en bolsas plásticas de polietileno, dejando un pequeño espacio libre y sellar adecuadamente.
               .col-xl-6
-                figure.d-none.d-xl-block
+                figure
                   img(src='@/assets/curso/temas/img62.png', alt='' style="max-width: 500px").m-auto
             
             .row.h-100.justify-content-center.align-items-center
@@ -245,7 +246,7 @@
                       i.fas.fa-arrow-alt-circle-right
                     | #[b Aplicación]: mezclar el ácido ascórbico con el almíbar antes de incorporarlo a la fruta.
               .col-xl-6
-                figure.d-none.d-xl-block
+                figure
                   img(src='@/assets/curso/temas/img63.png', alt='' style="max-width: 500px").m-auto
 
             .row.h-100.justify-content-center.align-items-center
@@ -278,7 +279,7 @@
                       i.fas.fa-arrow-alt-circle-right
                     | #[b Empaque]: empacar el producto dejando un espacio libre, con el fin de permitir la expansión durante la congelación.
               .col-xl-6
-                figure.d-none.d-xl-block
+                figure
                   img(src='@/assets/curso/temas/img64.png', alt='' style="max-width: 500px").m-auto
 
     <!------------------------------------------ SUBTEMA 4 ------------------------------------------>
@@ -325,12 +326,13 @@
                 h4 Organización
                 p.mb-0 Agrupar los productos congelados para evitar la pérdida de frío durante la limpieza.
 
-        .row.align-items-center.m-0.style___box_6(data-aos="zoom-in")
-          .col-xl-auto(data-aos="fade-right")
-            figure.d-none.d-xl-block
-              img(src="@/assets/curso/temas/img69.svg" ).m-auto
-          .col-xl
-            p.mb-0 La correcta aplicación de estos #[b procesos de empaque, congelación y conservación] permite mantener la #[b calidad nutricional, sensorial e higiénica] de las frutas, garantizando alimentos #[b seguros] y aptos para el consumo.
+        .style___box_6.mb-0(data-aos="zoom-in")
+          .row.align-items-center
+            .col-xl-auto.col-md-2(data-aos="fade-right")
+              figure
+                img(src='@/assets/curso/temas/img69.svg', alt='' style="width: 85px").m-auto
+            .col-xl.col-md-10.espacio___movil_3
+              p.mb-0 La correcta aplicación de estos #[b procesos de empaque, congelación y conservación] permite mantener la #[b calidad nutricional, sensorial e higiénica] de las frutas, garantizando alimentos #[b seguros] y aptos para el consumo.
 
     <!------------------------------------------ SUBTEMA 5 ------------------------------------------>
     Separador
@@ -357,7 +359,7 @@
                 h4 Piña
                 p.mb-0 Debe ceder al presionarla con el dedo, tener olor dulce, no presentar golpes y la zona inferior no debe estar negra.
               .col-xl-6
-                figure.d-none.d-xl-block
+                figure
                   img(src='@/assets/curso/temas/img70.png', alt='' style="max-width: 500px").m-auto
             
             .row.h-100.justify-content-center.align-items-center
@@ -365,15 +367,15 @@
                 h4 Mango
                 p.mb-0 La cáscara debe ser de color amarillo, firme y sin golpes ni magulladuras.
               .col-xl-6
-                figure.d-none.d-xl-block
+                figure
                   img(src='@/assets/curso/temas/img71.png', alt='' style="max-width: 500px").m-auto
 
             .row.h-100.justify-content-center.align-items-center
               .col-xl-6.mb-4
                 h4 Maracuyá
-                p.mb-0  Se deben elegir los frutos más pesados; cuando la piel está arrugada indica que está listo para el consumo.
+                p.mb-0  Se deben elegir los frutos más pesados; cuando la piel está arrugada, indica que está listo para el consumo.
               .col-xl-6
-                figure.d-none.d-xl-block
+                figure
                   img(src='@/assets/curso/temas/img72.png', alt='' style="max-width: 500px").m-auto
 
             .row.h-100.justify-content-center.align-items-center
@@ -381,7 +383,7 @@
                 h4 Fresa
                 p.mb-0 Debe ser firme y brillante, con hojas verdes; se deben evitar las que presenten daños o decoloración.
               .col-xl-6
-                figure.d-none.d-xl-block
+                figure
                   img(src='@/assets/curso/temas/img73.png', alt='' style="max-width: 500px").m-auto
 
             .row.h-100.justify-content-center.align-items-center
@@ -389,7 +391,7 @@
                 h4 Tomate de árbol
                 p.mb-0 La piel debe ser brillante y sin golpes; requiere una manipulación cuidadosa por ser muy delicado.
               .col-xl-6
-                figure.d-none.d-xl-block
+                figure
                   img(src='@/assets/curso/temas/img74.png', alt='' style="max-width: 500px").m-auto
 
     .titles___box_tercer_nivel.mb-5(data-aos="fade-right")

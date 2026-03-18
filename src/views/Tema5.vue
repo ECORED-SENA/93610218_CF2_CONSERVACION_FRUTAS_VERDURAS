@@ -6,22 +6,20 @@
       .titulo-principal__numero
         span 5
       h1 Conservación de frutas y verduras por calor y reducción de agua
-    
-    .row.align-items-center.m-0.style___box_6.fit___box_6.mb-5(data-aos="zoom-in")
-      .col-xl-auto(data-aos="fade-right")
-        figure.d-none.d-xl-block
-          img(src="@/assets/curso/temas/img91.svg" ).m-auto
-      .col-xl
-        p.mb-0 La #[b conservación de frutas y verduras] mediante #[b calor y reducción del contenido de agua] tiene como objetivo #[b eliminar o inhibir el crecimiento de microorganismos y prolongar la vida útil] de los alimentos, manteniendo condiciones seguras para el consumo humano.
+
+    .style___box_6.fit___box_6.mb-5(data-aos="zoom-in")
+      .row.align-items-center
+        .col-xl-auto.col-md-2(data-aos="fade-right")
+          figure
+            img(src='@/assets/curso/temas/img91.svg', alt='' style="width: 85px").m-auto
+        .col-xl.col-md-10.espacio___movil_3
+          p.mb-0 La #[b conservación de frutas y verduras] mediante #[b calor y reducción del contenido de agua] tiene como objetivo #[b eliminar o inhibir el crecimiento de microorganismos y prolongar la vida útil] de los alimentos, manteniendo condiciones seguras para el consumo humano.
 
     <!------------------------------------------ SUBTEMA 1 ------------------------------------------>
     #t_5_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 5.1 Conservación de frutas y verduras por calor
 
     p.mb-5 En frutas y verduras, los métodos de conservación por calor más utilizados son la #[b pasteurización] y la #[b esterilización], los cuales actúan principalmente sobre los #[b microorganismos patógenos] y las #[b enzimas] responsables del deterioro del alimento. Los métodos de conservación por calor permiten reducir o eliminar los microorganismos presentes en los alimentos y prolongar su vida útil mediante la aplicación controlada de altas temperaturas:
-
-
-
 
     .tarjeta--container.row.justify-content-center.mb-5.m-0(data-aos="zoom-in")
       .col-xl-6.col-md-10.tarjeta.color-acento-contenido.p-5
@@ -40,14 +38,15 @@
           .col
             h2 Esterilización
         p Consiste en someter el alimento, dentro de un #[b recipiente cerrado], a temperaturas entre #[b 116 y 120 °C durante 15 minutos]. Se utiliza principalmente en #[b alimentos enlatados] y tiene como objetivo eliminar todos los microorganismos perjudiciales para el ser humano y desnaturalizar enzimas.
-    
-    .row.align-items-center.mb-0.style___box_2.m-0(data-aos="zoom-in")
-      .col-xl-auto
-        figure.d-none.d-xl-block
-          img(src="@/assets/curso/temas/img79.png", alt="" ).m-auto
-      .col-xl
-        p Para verificar que el proceso de esterilización se ha realizado correctamente, la industria alimentaria utiliza como microorganismo indicador al Clostridium botulinum, ya que este se desarrolla con facilidad en ambientes sin oxígeno, característicos de los productos enlatados.
-        p.mb-0 La presencia de este microorganismo suele asociarse a malas prácticas de manipulación, como golpes o abolladuras en los envases durante el almacenamiento. Por esta razón, no se deben comprar ni consumir alimentos enlatados en mal estado o vencidos, ya que representan un riesgo para la salud.
+
+    .style___box_2.mb-0(data-aos="zoom-in")
+      .row.align-items-center
+        .col-xl-auto
+          figure
+            img(src='@/assets/curso/temas/img79.png', alt='').m-auto
+        .col-xl
+          p.mt-3.fit___p_box Para verificar que el proceso de esterilización se ha realizado correctamente, la industria alimentaria utiliza como microorganismo indicador al Clostridium botulinum, ya que este se desarrolla con facilidad en ambientes sin oxígeno, característicos de los productos enlatados.
+          p.fit___p_box La presencia de este microorganismo suele asociarse a malas prácticas de manipulación, como golpes o abolladuras en los envases durante el almacenamiento. Por esta razón, no se deben comprar ni consumir alimentos enlatados en mal estado o vencidos, ya que representan un riesgo para la salud.
 
     <!------------------------------------------ SUBTEMA 2 ------------------------------------------>
     Separador
@@ -65,23 +64,23 @@
                 h4 Secado al sol
                 p.mb-0 Consiste en exponer los productos al sol para que pierdan agua. Requiere condiciones climáticas favorables y es muy utilizado en productos como el café.
               .col-xl-6
-                figure.d-none.d-xl-block
+                figure
                   img(src='@/assets/curso/temas/img80.png', alt='' style="max-width: 500px").m-auto
             
             .row.h-100.justify-content-center.align-items-center
               .col-xl-6.mb-4
                 h4 Secado artificial
-                p.mb-0 Se realiza en secadoras mediante aire caliente, hasta alcanzar niveles de humedad entre #[b 1% y 5%].
+                p.mb-0 Se realiza en secadoras mediante aire caliente, hasta alcanzar niveles de humedad entre #[b 1 % y 5 %].
               .col-xl-6
-                figure.d-none.d-xl-block
+                figure
                   img(src='@/assets/curso/temas/img81.png', alt='' style="max-width: 500px").m-auto
 
             .row.h-100.justify-content-center.align-items-center
               .col-xl-6.mb-4
                 h4 Liofilización
-                p.mb-0 El alimento se congela y luego se somete a una cámara de vacío, donde el agua se elimina por sublimación. El producto final contiene aproximadamente #[b 2% de agua]. Es un método costoso, pero conserva muy bien las características sensoriales.
+                p.mb-0 El alimento se congela y luego se somete a una cámara de vacío, donde el agua se elimina por sublimación. El producto final contiene aproximadamente #[b 2 % de agua]. Es un método costoso, pero conserva muy bien las características sensoriales.
               .col-xl-6
-                figure.d-none.d-xl-block
+                figure
                   img(src='@/assets/curso/temas/img82.png', alt='' style="max-width: 500px").m-auto
 
             .row.h-100.justify-content-center.align-items-center
@@ -89,7 +88,7 @@
                 h4 Salazón
                 p.mb-0 Consiste en adicionar grandes cantidades de sal al alimento. Los productos obtenidos por este método presentan #[b menor valor nutritivo].
               .col-xl-6
-                figure.d-none.d-xl-block
+                figure
                   img(src='@/assets/curso/temas/img83.png', alt='' style="max-width: 500px").m-auto
 
     p.mb-5 La deshidratación de frutas y verduras permite reducir el contenido de agua del alimento, facilitar su conservación y generar cambios físicos, químicos y sensoriales que deben considerarse tanto en procesos industriales como caseros:
@@ -155,7 +154,7 @@
                     i.fas.fa-arrow-alt-circle-right
                   | #[b Cambios sensoriales]: alteraciones en el color, el sabor, la textura y el olor.
     
-    p.mb-0 La correcta aplicación de los métodos de c#[b onservación por calor y reducción de agua] permite obtener alimentos #[b seguros], con mayor #[b durabilidad], teniendo en cuenta los posibles cambios nutricionales y sensoriales que pueden presentarse durante estos procesos.
+    p.mb-0 La correcta aplicación de los métodos de #[b conservación por calor y reducción de agua] permite obtener alimentos #[b seguros], con mayor #[b durabilidad], teniendo en cuenta los posibles cambios nutricionales y sensoriales que pueden presentarse durante estos procesos.
 
     <!------------------------------------------ SUBTEMA 3 ------------------------------------------>
     Separador
@@ -177,7 +176,7 @@
       .py-3.py-md-4(titulo="Atmósfera modificada")
         .row.justify-content-center.align-items-center
           .col-xl-5.order-2.order-lg-1
-            figure.d-none.d-xl-block
+            figure
               img(src='@/assets/curso/temas/img85.png', alt="" ).m-auto
           .col-xl-7.order-1.order-lg-2.mb-4.mb-lg-0
             h4.txt--purpura.mb-4 Atmósfera modificada
@@ -186,7 +185,7 @@
       .py-3.py-md-4(titulo="Empaque al vacío")
         .row.justify-content-center.align-items-center
           .col-xl-5.order-2.order-lg-1
-            figure.d-none.d-xl-block
+            figure
               img(src='@/assets/curso/temas/img86.png', alt="" ).m-auto
           .col-xl-7.order-1.order-lg-2.mb-4.mb-lg-0
             h4.txt--purpura.mb-4 Empaque al vacío

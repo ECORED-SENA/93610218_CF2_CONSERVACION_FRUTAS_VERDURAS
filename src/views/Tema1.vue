@@ -9,12 +9,13 @@
 
     p.mb-5 La manipulación de alimentos comprende el conjunto de técnicas y procedimientos que se realizan con el objetivo de que #[b el alimento mantenga todas sus propiedades físicas, conserve su calidad y prolongue su vida útil], sin sufrir ningún tipo de contaminación, garantizando así que sea seguro para el consumo humano.
 
-    .row.align-items-center.mb-5.style___box_6.m-0(data-aos="zoom-in")
-      .col-xl-auto(data-aos="fade-right")
-        figure.d-none.d-xl-block
-          img(src="@/assets/curso/temas/img1.svg", alt="" ).m-auto
-      .col-xl
-        p.mb-0 Una adecuada manipulación de los alimentos, desde la recepción de las materias primas hasta su transformación, conservación y comercialización, es un factor determinante para asegurar la inocuidad y la calidad final del producto.
+    .style___box_6.mb-5(data-aos="zoom-in")
+      .row.align-items-center
+        .col-xl-auto.col-md-2(data-aos="fade-right")
+          figure
+            img(src='@/assets/curso/temas/img1.svg', alt='' style="width: 85px").m-auto
+        .col-xl.col-md-10.espacio___movil_3
+          p.mb-0 Una adecuada manipulación de los alimentos, desde la recepción de las materias primas hasta su transformación, conservación y comercialización, es un factor determinante para asegurar la inocuidad y la calidad final del producto.
     
     p.mb-0 Está comprobado que una mala manipulación reduce la vida útil del alimento, favorece su contaminación y puede provocar enfermedades transmitidas por alimentos en la población. Por esta razón, los métodos más eficaces para la prevención de estas enfermedades son la aplicación constante de medidas higiénicas.
 
@@ -46,7 +47,7 @@
                 h4 Contaminación
                 p.mb-0 Presencia de agentes físicos, químicos o biológicos que se introducen en un alimento de forma natural o por acción del ser humano.
               .col-xl-6
-                figure.d-none.d-xl-block
+                figure
                   img(src='@/assets/curso/temas/img4.png', alt='' style="max-width: 500px").m-auto
             
             .row.h-100.justify-content-center.align-items-center
@@ -54,7 +55,7 @@
                 h4 Contaminante
                 p.mb-0 Cualquier sustancia o agente que se añade a un producto y provoca la pérdida de su inocuidad.
               .col-xl-6
-                figure.d-none.d-xl-block
+                figure
                   img(src='@/assets/curso/temas/img5.png', alt='' style="max-width: 500px").m-auto
 
             .row.h-100.justify-content-center.align-items-center
@@ -62,7 +63,7 @@
                 h4 Desinfección
                 p.mb-0 Eliminación de agentes patógenos mediante el uso de agentes químicos y métodos físicos.
               .col-xl-6
-                figure.d-none.d-xl-block
+                figure
                   img(src='@/assets/curso/temas/img6.png', alt='' style="max-width: 500px").m-auto
 
             .row.h-100.justify-content-center.align-items-center
@@ -70,7 +71,7 @@
                 h4 Higiene de los alimentos
                 p.mb-0 Conjunto de mecanismos y prácticas de manipulación que garantizan la inocuidad en toda la cadena productiva.
               .col-xl-6
-                figure.d-none.d-xl-block
+                figure
                   img(src='@/assets/curso/temas/img7.png', alt='' style="max-width: 500px").m-auto
 
             .row.h-100.justify-content-center.align-items-center
@@ -78,7 +79,7 @@
                 h4 Inocuidad de los alimentos
                 p.mb-0 Condición que asegura que un alimento está libre de agentes contaminantes que puedan causar daño a la salud del consumidor.
               .col-xl-6
-                figure.d-none.d-xl-block
+                figure
                   img(src='@/assets/curso/temas/img8.png', alt='' style="max-width: 500px").m-auto
 
     <!------------------------------------------ SUBTEMA 3 ------------------------------------------>
@@ -88,12 +89,13 @@
 
     p.mb-5 El personal manipulador de alimentos debe cumplir una serie de #[b requisitos sanitarios] antes de iniciar cualquier operación de #[b transformación o conservación]. Estos requisitos están sujetos a las recomendaciones establecidas por el Ministerio de Salud y Protección Social, a través de la #[b Resolución 2674 de 2013], la cual reemplazó el #[b Decreto 3075 de 1997]. 
 
-    .row.align-items-center.style___box_3.m-0(data-aos="zoom-in")
-      .col-xl-auto(data-aos="fade-right")
-        figure.d-none.d-xl-block
-          img(src="@/assets/curso/temas/img9.svg", alt="" ).m-auto
-      .col-xl
-        p.mb-0 Esta normativa establece las condiciones necesarias para asegurar #[b la higiene, calidad e inocuidad de los alimentos] destinados al consumo humano.
+    .style___box_3.mb-0(data-aos="zoom-in")
+      .row.align-items-center
+        .col-xl-auto.col-md-2(data-aos="fade-right")
+          figure
+            img(src='@/assets/curso/temas/img9.svg', alt='' style="width: 85px").m-auto
+        .col-xl.col-md-10.espacio___movil_3
+          p.mb-0 Esta normativa establece las condiciones necesarias para asegurar #[b la higiene, calidad e inocuidad de los alimentos] destinados al consumo humano.
 
 </template>
 

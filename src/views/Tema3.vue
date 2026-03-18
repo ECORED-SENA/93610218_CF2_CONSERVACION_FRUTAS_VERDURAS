@@ -31,7 +31,7 @@
                 h4 Separación de alimentos
                 p.mb-0 Evitar el contacto directo o indirecto entre alimentos listos para el consumo y materias primas que aún no han sido procesadas.
               .col-xl-6
-                figure.d-none.d-xl-block
+                figure
                   img(src='@/assets/curso/temas/img43.png', alt='' style="max-width: 500px").m-auto
             
             .row.h-100.justify-content-center.align-items-center
@@ -39,7 +39,7 @@
                 h4 Indumentaria
                 p.mb-0 La falta de indumentaria adecuada o el uso de ropa sucia puede generar contaminación cruzada.
               .col-xl-6
-                figure.d-none.d-xl-block
+                figure
                   img(src='@/assets/curso/temas/img44.png', alt='' style="max-width: 500px").m-auto
 
             .row.h-100.justify-content-center.align-items-center
@@ -47,7 +47,7 @@
                 h4 Lavado de manos
                 p.mb-0 Es obligatorio lavarse las manos entre operaciones dentro del mismo proceso de elaboración.
               .col-xl-6
-                figure.d-none.d-xl-block
+                figure
                   img(src='@/assets/curso/temas/img45.png', alt='' style="max-width: 500px").m-auto
 
             .row.h-100.justify-content-center.align-items-center
@@ -55,7 +55,7 @@
                 h4 Higienización de utensilios
                 p.mb-0 Los equipos y utensilios que hayan estado en contacto con materias primas deben limpiarse y desinfectarse antes de reutilizarse.
               .col-xl-6
-                figure.d-none.d-xl-block
+                figure
                   img(src='@/assets/curso/temas/img46.png', alt='' style="max-width: 500px").m-auto
 
             .row.h-100.justify-content-center.align-items-center
@@ -63,7 +63,7 @@
                 h4 Flujo del proceso
                 p.mb-0 Todas las etapas del proceso deben realizarse de manera secuencial para evitar cruces innecesarios.
               .col-xl-6
-                figure.d-none.d-xl-block
+                figure
                   img(src='@/assets/curso/temas/img47.png', alt='' style="max-width: 500px").m-auto
             
             .row.h-100.justify-content-center.align-items-center
@@ -71,7 +71,7 @@
                 h4 Pediluvios
                 p.mb-0 Cuando sea necesario, deben instalarse pediluvios para la limpieza y desinfección de botas.
               .col-xl-6
-                figure.d-none.d-xl-block
+                figure
                   img(src='@/assets/curso/temas/img48.png', alt='' style="max-width: 500px").m-auto
 
             .row.h-100.justify-content-center.align-items-center
@@ -79,7 +79,7 @@
                 h4 Lavamanos
                 p.mb-0 En la entrada de las áreas de fabricación deben instalarse lavamanos de pedal; el secado debe hacerse con toallas desechables o secadores.
               .col-xl-6
-                figure.d-none.d-xl-block
+                figure
                   img(src='@/assets/curso/temas/img49.png', alt='' style="max-width: 500px").m-auto
 
             .row.h-100.justify-content-center.align-items-center
@@ -87,7 +87,7 @@
                 h4 Control del personal
                 p.mb-0 Los jefes de producción deben garantizar que los operarios tengan las manos debidamente higienizadas antes de iniciar labores.
               .col-xl-6
-                figure.d-none.d-xl-block
+                figure
                   img(src='@/assets/curso/temas/img50.png', alt='' style="max-width: 500px").m-auto
       
     <!------------------------------------------ SUBTEMA 2 ------------------------------------------>
@@ -152,7 +152,7 @@
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.3 Productos frescos prelavados
     
-    p.mb-5 Los productos frescos p#[b relavados, precortados y empacados] pueden consumirse sin necesidad de un nuevo lavado. Sin embargo, como medida adicional de precaución, pueden lavarse nuevamente. En caso de que vengan en #[b bolsas abiertas], es obligatorio realizar nuevamente su limpieza e higienización. Para reforzar la seguridad alimentaria durante la manipulación de productos frescos, se deben aplicar las siguientes recomendaciones generales: 
+    p.mb-5 Los productos frescos #[b prelavados, precortados y empacados] pueden consumirse sin necesidad de un nuevo lavado. Sin embargo, como medida adicional de precaución, pueden lavarse nuevamente. En caso de que vengan en #[b bolsas abiertas], es obligatorio realizar nuevamente su limpieza e higienización. Para reforzar la seguridad alimentaria durante la manipulación de productos frescos, se deben aplicar las siguientes recomendaciones generales: 
 
     .fondo___carrusel
       .px-5
@@ -191,12 +191,13 @@
                 h4 Superficies
                 p.mb-0.ajuste___card_1 Preferir mesas y utensilios de acero inoxidable para facilitar la limpieza y desinfección.
 
-        .row.align-items-center.m-0.style___box_6(data-aos="zoom-in")
-          .col-xl-auto(data-aos="fade-right")
-            figure.d-none.d-xl-block
-              img(src="@/assets/curso/temas/img56.svg" ).m-auto
-          .col-xl
-            p.mb-0 La aplicación rigurosa de estas medidas permite #[b reducir significativamente la contaminación cruzada] y asegurar alimentos #[b seguros, higiénicos y aptos para el consumo humano].
+        .style___box_6.mb-0(data-aos="zoom-in")
+          .row.align-items-center
+            .col-xl-auto.col-md-2(data-aos="fade-right")
+              figure
+                img(src='@/assets/curso/temas/img56.svg', alt='' style="width: 85px").m-auto
+            .col-xl.col-md-10.espacio___movil_3
+              p.mb-0 La aplicación rigurosa de estas medidas permite #[b reducir significativamente la contaminación cruzada] y asegurar alimentos #[b seguros, higiénicos y aptos para el consumo humano].
 
 </template>
 

@@ -200,7 +200,7 @@
                 h4 Inspección
                 p.mb-0 Las materias primas deben ser inspeccionadas y presentar características físicas óptimas, sin agentes contaminantes.
               .col-xl-6
-                figure.d-none.d-xl-block
+                figure
                   img(src='@/assets/curso/temas/img33.png', alt='' style="max-width: 500px").m-auto
             
             .row.h-100.justify-content-center.align-items-center
@@ -208,7 +208,7 @@
                 h4 Frutas y verduras
                 p.mb-0 No deben presentar deterioro ni estar contaminadas con excrementos de animales.
               .col-xl-6
-                figure.d-none.d-xl-block
+                figure
                   img(src='@/assets/curso/temas/img34.png', alt='' style="max-width: 500px").m-auto
 
             .row.h-100.justify-content-center.align-items-center
@@ -216,7 +216,7 @@
                 h4 Ficha técnica
                 p.mb-0 Las materias primas deben contar con una ficha técnica que especifique características como estado de madurez, grados Brix, entre otros.
               .col-xl-6
-                figure.d-none.d-xl-block
+                figure
                   img(src='@/assets/curso/temas/img35.png', alt='' style="max-width: 500px").m-auto
 
             .row.h-100.justify-content-center.align-items-center
@@ -224,7 +224,7 @@
                 h4 Limpieza y desinfección
                 p.mb-0 Deben limpiarse y desinfectarse utilizando agua potable.
               .col-xl-6
-                figure.d-none.d-xl-block
+                figure
                   img(src='@/assets/curso/temas/img36.png', alt='' style="max-width: 500px").m-auto
 
             .row.h-100.justify-content-center.align-items-center
@@ -232,7 +232,7 @@
                 h4 Descongelación
                 p.mb-0 Las materias primas congeladas deben descongelarse con varias horas de anticipación a su uso.
               .col-xl-6
-                figure.d-none.d-xl-block
+                figure
                   img(src='@/assets/curso/temas/img37.png', alt='' style="max-width: 500px").m-auto
 
     .titles___box_tercer_nivel.mb-5(data-aos="fade-right")
@@ -273,11 +273,11 @@
 
     .row.align-items-center.m-0
       .col-xl
-        .row.align-items-center.style___box_4(data-aos="zoom-in")
+        .row.align-items-center.justify-content-center.style___box_4(data-aos="zoom-in")
           .col-auto
-            figure.d-none.d-xl-block(data-aos="fade-right")
+            figure(data-aos="fade-right")
               img(src="@/assets/curso/temas/img40.svg" style="max-width: 220px").m-auto
-          .col
+          .col.espacio___movil_3
             h4.mb-4 Pódcast
             TarjetaAudio.color-acento-contenido.mb-3(
               texto="Fabricación de alimentos"
